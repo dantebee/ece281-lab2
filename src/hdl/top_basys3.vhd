@@ -89,7 +89,7 @@ architecture top_basys3_arch of top_basys3 is
  
   -- create wire to connect button to 7SD enable (active-low)
 
-     signal w_7SD_EN_n : std_logic := '0';
+     signal w_7SD_EN_n : std_logic;
   
 begin
 	-- PORT MAPS ----------------------------------------
