@@ -117,6 +117,7 @@ c_Se <= '1' when ((i_D = x"1") or
                   (i_D = x"3") or
                   (i_D = x"4") or
                   (i_D = x"5") or
+                  (i_D = x"7") or
                   (i_D = x"9")) else '0';
 
 c_Sf <= '1' when ((i_D = x"1") or
